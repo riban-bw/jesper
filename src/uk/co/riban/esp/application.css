@@ -1,0 +1,22 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+.toast-notification {
+	/* This is the default settings so not actually required in this CSS */
+	-fx-text-fill: #D0D0D0;
+	-fx-padding: 5;
+	-fx-background-color: #606060;
+	-fx-background-radius: 10;
+	-fx-font-size: 120%;
+}
+
+.terminal {
+  -fx-font-family: Consolas;
+  -fx-highlight-fill: #00ff00;
+  -fx-highlight-text-fill: #000000;
+  -fx-text-fill: #00ff00;
+  -fx-background-color: #000000;
+}
+
+.terminal .content {
+	-fx-background-color: #000000;
+}
